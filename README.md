@@ -89,3 +89,5 @@ As principais bibliotecas utilizadas neste projeto estão listadas no arquivo `r
 ## 🎯 Considerações Finais
 
 Este projeto foi desenvolvido com foco em **aprendizado prático e consolidação de conceitos de Machine Learning**, aplicados a um problema real de cibersegurança, servindo como material de estudo e portfólio técnico.
+
+A análise de feature importance indicou que estatísticas de variabilidade dos pacotes, principalmente no fluxo de retorno, foram determinantes para a detecção de intrusão.
