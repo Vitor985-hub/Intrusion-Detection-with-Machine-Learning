@@ -90,4 +90,6 @@ As principais bibliotecas utilizadas neste projeto estão listadas no arquivo `r
 
 Este projeto foi desenvolvido com foco em **aprendizado prático e consolidação de conceitos de Machine Learning**, aplicados a um problema real de cibersegurança, servindo como material de estudo e portfólio técnico.
 
-A análise de feature importance indicou que estatísticas de variabilidade dos pacotes, principalmente no fluxo de retorno, foram determinantes para a detecção de intrusão.
+A análise de *feature importance* indicou que estatísticas relacionadas à **variabilidade do tamanho dos pacotes**, especialmente no **fluxo de retorno (backward)**, foram determinantes para a detecção de intrusão. Esse resultado é consistente com o domínio do problema, uma vez que tráfego malicioso tende a apresentar padrões mais irregulares do que o tráfego benigno.
+
+Apesar do desempenho elevado dos modelos, os resultados devem ser interpretados com cautela devido às características do dataset, reforçando a importância de validações adicionais em cenários distintos.
